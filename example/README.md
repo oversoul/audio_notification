@@ -1,6 +1,6 @@
-# background_audio_example
+# audio_notification_example
 
-Demonstrates how to use the background_audio plugin.
+Demonstrates how to use the audio_notification plugin.
 
 ## Getting Started
 
