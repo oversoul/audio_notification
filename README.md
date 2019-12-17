@@ -1,10 +1,7 @@
-# background_audio
+# Audio Notification
 
-A new Flutter plugin.
+A Flutter plugin for audio playback with notification based on ExoPlayer.
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
-
-For help on editing plugin code, view the [documentation](https://flutter.io/developing-packages/#edit-plugin-package).
+View the example project.
