@@ -1,11 +1,11 @@
-#import "BackgroundAudioPlugin.h"
+#import "AudioNotificationPlugin.h"
 
-@implementation BackgroundAudioPlugin
+@implementation AudioNotificationPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"background_audio"
+      methodChannelWithName:@"audio_notification"
             binaryMessenger:[registrar messenger]];
-  BackgroundAudioPlugin* instance = [[BackgroundAudioPlugin alloc] init];
+  AudioNotificationPlugin* instance = [[AudioNotificationPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
 }
 
